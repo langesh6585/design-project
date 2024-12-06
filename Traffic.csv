@@ -1,0 +1,24 @@
+Time,CarCount,BikeCount,BusCount,TruckCount,weather,temperature,day_of_week,holiday,location,Total,Traffic Situation
+08:00:00,120,30,10,5,sunny,15.2,Thursday,No,Location_A,170,Low
+08:05:00,130,32,12,6,rainy,14.8,Thursday,No,Location_A,180,Low
+08:10:00,140,35,15,7,sunny,15.5,Thursday,No,Location_A,197,Low
+08:15:00,125,33,14,6,sunny,15.0,Thursday,No,Location_A,178,Low
+08:20:00,135,31,13,6,cloudy,14.0,Thursday,No,Location_A,185,Low
+08:25:00,115,28,9,4,sunny,16.0,Thursday,No,Location_B,156,Low
+08:30:00,125,30,10,5,cloudy,15.8,Thursday,No,Location_B,170,Low
+08:35:00,160,40,20,8,rainy,14.5,Thursday,No,Location_B,228,High
+08:40:00,170,45,18,9,sunny,15.6,Thursday,No,Location_B,242,High
+08:45:00,150,38,16,7,sunny,15.3,Thursday,No,Location_C,211,High
+08:50:00,160,40,17,8,rainy,14.9,Thursday,No,Location_C,225,High
+08:55:00,155,36,14,7,sunny,16.2,Thursday,No,Location_C,212,High
+09:00:00,140,34,13,6,sunny,16.0,Thursday,No,Location_C,193,Low
+09:05:00,130,32,12,5,cloudy,15.0,Thursday,No,Location_A,179,Low
+09:10:00,120,30,10,4,rainy,14.7,Thursday,No,Location_A,164,Low
+09:15:00,125,33,11,5,sunny,16.2,Thursday,No,Location_A,174,Low
+09:20:00,130,35,12,6,sunny,16.0,Thursday,No,Location_B,183,Low
+09:25:00,140,37,14,7,rainy,14.5,Thursday,No,Location_B,198,Low
+09:30:00,145,40,15,8,sunny,15.5,Thursday,No,Location_B,208,High
+09:35:00,150,42,16,9,cloudy,14.8,Thursday,No,Location_C,217,High
+09:40:00,160,44,18,10,sunny,16.0,Thursday,No,Location_C,232,High
+09:45:00,170,46,20,11,rainy,14.2,Thursday,No,Location_C,247,High
+09:50:00,180,50,22,12,sunny,16.5,Thursday,No,Location_A,264,High

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .plot-container {
+            margin-bottom: 40px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Traffic Prediction and Analysis</h1>
+    
+    <div class="plot-container">
+        <h2>Traffic Prediction vs Actual</h2>
+        <img src="{{ traffic_plot }}" alt="Traffic Prediction vs Actual">
+    </div>
+
+    <div class="plot-container">
+        <h2>Traffic Situation Distribution</h2>
+        <img src="{{ situation_plot }}" alt="Traffic Situation Distribution">
+    </div>
+
+    <div class="plot-container">
+        <h2>Vehicle Counts by Hour for Each Day</h2>
+        {% for plot in vehicle_counts_plots %}
+            <img src="{{ plot }}" alt="Vehicle Counts by Hour">
+        {% endfor %}
+    </div>
+
+    <div class="plot-container">
+        <h2>Average Traffic per Hour for Each Day</h2>
+        {% for plot in avg_traffic_plots %}
+            <img src="{{ plot }}" alt="Average Traffic per Hour">
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>
